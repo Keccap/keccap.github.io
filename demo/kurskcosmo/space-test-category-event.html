@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+
+<!--
+
+UX/UI, HTML/CSS, smal JS (plugins) : Alex Vorobev («Keccap»)   |   https://github.com/Keccap
+
+JS, PHP, MYSQL : Sergey Bitukov («Letry»)   |   https://github.com/Letry
+
+-->
+
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Космос</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<meta name="theme-color" content="#fff">
+	<meta name="msapplication-navbutton-color" content="#fff">
+	<meta name="apple-mobile-web-app-status-bar-style" content="#fff">
+
+	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #f7f5fc; } .preloader-inside {position: fixed; top: 0; right: 0; bottom: 0; left: 0; background-color: #f7f5fc; opacity: 1; z-index: 999; visibility: visible; transition: all .5s ease; } .preloader-inside.done {visibility: hidden; opacity: 0; } </style>
+</head>
+
+<body class="inside space">
+
+
+
+	<header class="insideHeader space" id="insideHeader">
+		<div class="container">
+
+			<div class="logo">
+				<img src="img/icon/space_icon.svg" alt="Космос">
+				<h1>Космос</h1>
+			</div>
+			<nav class="mainMnu">
+
+			<button id="hiddenBtn" class="hamburger hamburger--slider" type="button">
+					<span class="hamburger-box">
+					<span class="hamburger-inner"></span>
+					</span>
+			</button>
+
+				<ul>
+					<li class="active"><a href="space.html">Статьи</a></li>
+					<li><a href="space_project.html">Проекты</a></li>
+					<li><a href="space_contest.html">Конкурсы</a></li>
+					<li class="other"><a href="#">Галерея</a></li>
+					<li class="other"><a href="#">Помощники</a></li>
+				</ul>
+			</nav>
+			<div class="searchWrap">
+				<div id="search" class="search">
+					<img class="img-svg" src="img/icon/search_icon.svg" alt="Поиск">
+				</div>
+				<div id="searchPanel" class="searchPanel">
+					<input type="text" placeholder="Поиск в выбранной категории...">
+
+					<div class="searchIcon">
+						<img class="img-svg" src="img/icon/search_icon.svg" alt="Поиск">
+					</div>
+					
+					<div id="offSearch" class="offIcon">
+						<img class="img-svg" src="img/icon/off.svg" alt="Disable">
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+	</header>
+
+	<nav id="hiddenMnu" class="hiddenMnu">
+		<ul>
+			<li class="active"><a href="space.html">Статьи</a></li>
+			<li><a href="space_project.html">Проекты</a></li>
+			<li><a href="space_contest.html">Конкурсы</a></li>
+			<li class="other"><a href="#">Галерея</a></li>
+			<li class="other"><a href="#">Помощники</a></li>
+		</ul>
+	</nav>
+
+	<main class="mainContent">
+
+
+		<div class="container">
+			<div class="sidebar">
+				<div class="category">
+					<h4>Категории</h4>
+					<ul>
+						<li><a href="space.html">Все <span class="quantity">76</span></a></li>
+						<li class="active"><a href="space-test-category-event.html">События <span class="quantity">24</span></a></li>
+						<li><a href="space-test-category-person.html">Личности <span class="quantity">9</span></a></li>
+						<li><a href="#">Задания <span class="quantity">28</span></a></li>
+						<li><a href="#">Прочее <span class="quantity">15</span></a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="newsWrap">
+				<div class="masonryContainer">
+
+					<div class="col">
+						<div class="news" data-aos="fade-up" data-aos-offset="-200" data-aos-delay="0" data-aos-duration="600">
+
+							<a href="space_article-page.html" class="news-img">
+								<div class="imgCoverWrap">
+									<img src="img/main-news/frksg111114-900_2_0.jpg" alt="Спутник вывели на орбиту">
+								</div>
+							</a>
+							<div class="news-text">
+								<a href="space_article-page.html" class="news-text-head"><h3>Спутник вывели на орбиту</h3></a>
+								<p class="articleText">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Своего, ipsum запятой. Реторический взгляд которое возвращайся букв подпоясал домах безопасную, продолжил продолжил лучше сих приставка снова переулка! Ручеек, предупредила?</p>
+							</div>
+							<div class="news-botLine">
+								<span class="news-date">
+									19.04.2017
+								</span>
+								<span class="news-category">
+									События
+								</span>
+							</div>
+
+
+						</div>
+					</div>
+
+
+
+					<div class="col">
+						<div class="news" data-aos="fade-up" data-aos-offset="-200" data-aos-delay="0" data-aos-duration="600">
+
+							<a href="space_article-page.html" class="news-img">
+								<div class="imgCoverWrap">
+									<img src="img/main-news/oboi-kosmos-127.jpg" alt="Спутник вывели на орбиту">
+								</div>
+							</a>
+							<div class="news-text">
+								<a href="space_article-page.html" class="news-text-head"><h3>Спутник вывели на орбиту</h3></a>
+								<p class="articleText">18 апреля 2017 года произошел запуск спутника RTZ3-28 на орбиту Земли.  Что же это нам даст?</p>
+							</div>
+							<div class="news-botLine">
+								<span class="news-date">
+									15.04.2017
+								</span>
+								<span class="news-category">
+									События
+								</span>
+							</div>
+
+
+						</div>
+					</div>
+
+
+					<div class="col">
+						<div class="news" data-aos="fade-up" data-aos-offset="-200" data-aos-delay="0" data-aos-duration="600">
+
+							<a href="space_article-page.html" class="news-img">
+								<div class="imgCoverWrap">
+									<img src="img/main-news/frksg111114-900_2_0.jpg" alt="Спутник вывели на орбиту">
+								</div>
+							</a>
+							<div class="news-text">
+								<a href="space_article-page.html" class="news-text-head"><h3>Спутник вывели на орбиту</h3></a>
+								<p class="articleText">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Агенство о встретил рукописи но.</p>
+							</div>
+							<div class="news-botLine">
+								<span class="news-date">
+									12.04.2017
+								</span>
+								<span class="news-category">
+									События
+								</span>
+							</div>
+
+
+						</div>
+					</div>
+
+
+					<div class="col">
+						<div class="news" data-aos="fade-up" data-aos-offset="-200" data-aos-delay="0" data-aos-duration="600">
+
+							<a href="space_article-page.html" class="news-img">
+								<div class="imgCoverWrap">
+									<img src="img/main-news/frksg111114-900_2_0.jpg" alt="Спутник вывели на орбиту">
+								</div>
+							</a>
+							<div class="news-text">
+								<a href="space_article-page.html" class="news-text-head"><h3>Спутник вывели на орбиту</h3></a>
+								<p class="articleText">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Своего, ipsum запятой. Реторический взгляд которое возвращайся букв подпоясал домах безопасную, продолжил продолжил лучше сих приставка снова переулка! Ручеек, предупредила?</p>
+							</div>
+							<div class="news-botLine">
+								<span class="news-date">
+									9.04.2017
+								</span>
+								<span class="news-category">
+									События
+								</span>
+							</div>
+
+
+						</div>
+					</div>
+
+
+					<div class="col">
+						<div class="news" data-aos="fade-up" data-aos-offset="-200" data-aos-delay="0" data-aos-duration="600">
+
+							<a href="space_article-page.html" class="news-img">
+								<div class="imgCoverWrap">
+									<img src="img/main-news/gagarin.jpg" alt="Спутник вывели на орбиту">
+								</div>
+							</a>
+							<div class="news-text">
+								<a href="space_article-page.html" class="news-text-head"><h3>Спутник вывели на орбиту</h3></a>
+								<p class="articleText">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные.</p>
+							</div>
+							<div class="news-botLine">
+								<span class="news-date">
+									9.04.2017
+								</span>
+								<span class="news-category">
+									События
+								</span>
+							</div>
+
+
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="news" data-aos="fade-up" data-aos-offset="-200" data-aos-delay="0" data-aos-duration="600">
+
+							<a href="space_article-page.html" class="news-img">
+								<div class="imgCoverWrap">
+									<img src="img/main-news/oboi-kosmos-127.jpg" alt="Спутник вывели на орбиту">
+								</div>
+							</a>
+							<div class="news-text">
+								<a href="space_article-page.html" class="news-text-head"><h3>Спутник вывели на орбиту</h3></a>
+								<p class="articleText">18 апреля 2017 года произошел запуск спутника RTZ3-28 на орбиту Земли.  Что же это нам даст?</p>
+							</div>
+							<div class="news-botLine">
+								<span class="news-date">
+									8.04.2017
+								</span>
+								<span class="news-category">
+									События
+								</span>
+							</div>
+
+
+						</div>
+					</div>
+
+
+					<div class="col">
+						<div class="news" data-aos="fade-up" data-aos-offset="-200" data-aos-delay="0" data-aos-duration="600">
+
+							<a href="space_article-page.html" class="news-img">
+								<div class="imgCoverWrap">
+									<img src="img/main-news/frksg111114-900_2_0.jpg" alt="Спутник вывели на орбиту">
+								</div>
+							</a>
+							<div class="news-text">
+								<a href="space_article-page.html" class="news-text-head"><h3>Спутник вывели на орбиту</h3></a>
+								<p class="articleText">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Агенство о встретил рукописи но.</p>
+							</div>
+							<div class="news-botLine">
+								<span class="news-date">
+									5.04.2017
+								</span>
+								<span class="news-category">
+									События
+								</span>
+							</div>
+
+
+						</div>
+					</div>
+
+				</div> <!-- /massonaryContainer -->
+
+
+			</div> <!-- /newsWrap -->
+
+		</div>
+	</main>
+
+	<link rel="stylesheet" href="css/main.min.css">
+	<script src="js/scripts.min.js"></script>
+
+</body>
+</html>
