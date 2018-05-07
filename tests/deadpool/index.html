@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ru" class="🕷">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui, shrink-to-fit=no">
+
+    <meta name="MobileOptimized" content="width" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="format-detection" content="telephone=no">
+
+    <title>Deadpool</title>
+    <meta name="description" content="Description">
+
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+    <meta name="theme-color" content="#101010">
+    <meta name="msapplication-navbutton-color" content="#101010">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#101010">
+
+    <link rel="stylesheet" href="css/app.min.css">
+
+  </head>
+  <body>
+
+    <!-- begin preloader -->
+    <div id="preloader" class="preloader">
+      <div class="preloader__inner">
+        <svg class="preloader__svg" viewBox="25 25 50 50">
+          <circle class="circle" cx="50" cy="50" r="20" fill="none" stroke-width="4" stroke-miterlimit="10" />
+        </svg>
+      </div>
+    </div>
+    <!-- end preloader -->
+    <div class="site-wrapper">
+
+      <header class="header">
+        <div class="header__container container">
+
+          <div id="js-hamburger" class="hamburger hamburger--emphatic">
+            <div class="hamburger-box">
+              <div class="hamburger-inner"></div>
+            </div>
+          </div>
+
+          <aside class="fixed-menu">
+            <div class="fixed-menu__fixed-content">
+              <a href="#" class="fixed-menu__logo-wrapper logo-wrapper">
+                <div class="logo-wrapper__logo">
+                  <img src="img/logo.svg" alt="Телеканал Spike">
+                </div>
+                <span class="logo-wrapper__title">spike</span>
+              </a>
+              <nav class="main-menu">
+                <ul class="main-menu__list">
+                  <li class="main-menu__item">
+                    <a href="#" class="main-menu__link">Все кино</a>
+                  </li>
+                  <li class="main-menu__item">
+                    <a href="#" class="main-menu__link">Рейтинги</a>
+                  </li>
+                  <li class="main-menu__item">
+                    <a href="#" class="main-menu__link">Общение</a>
+                  </li>
+                  <li class="main-menu__item">
+                    <a href="#" class="main-menu__link">Войти</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </aside>
+
+          <div class="header-text-wrapper header-text-wrapper_left">
+            <div class="film-header">
+              <h1 class="film-header__title h1">Deadpool</h1>
+              <span class="film-header__release-date">2016</span>
+              <apan class="film-header__country">USA</apan>
+              <span class="film-header__age-limit">
+                <strong>18+</strong>
+              </span>
+            </div>
+          </div>
+
+          <div id="js-header-img" class="header-img header-img_animation header-img_animation" data-anim-direction="top">
+            <img src="img/film-img.png" alt="Deadpool">
+          </div>
+        </div>
+      </header>
+
+      <main class="main-content">
+        <div class="container-small">
+          <!-- begin s-about-film -->
+          <section class="main-content__section s-about-film">
+            <div class="film-description">
+              <div class="film-description__cover">
+                <img src="img/cover.jpg" alt="Deadpool">
+              </div>
+              <div class="film-description__text">
+                <p>Уэйд Уилсон — наёмник. Будучи побочным продуктом программы вооружённых сил под названием «Оружие X», Уилсон приобрёл невероятную силу, проворство и способность к исцелению. Но страшной ценой: его клеточная структура постоянно меняется,
+                  а здравомыслие сомнительно. Всё, чего Уилсон хочет, — это держаться на плаву в социальной выгребной яме. Но течение в ней слишком быстрое.</p>
+              </div>
+            </div>
+
+            <div class="film-reviews">
+              <h2 class="film-reviews__title h2">Рецензии:</h2>
+              <!-- begin film-review -->
+              <div class="film-review film-review_positive">
+                <span class="film-review__reviews-count">266</span>
+                <span class="film-review__text">положительных</span>
+                <div class="film-review__status-line"></div>
+              </div>
+              <!-- end film-review -->
+              <div class="film-review film-review_neutral">
+                <span class="film-review__reviews-count">41</span>
+                <span class="film-review__text">нейтральных</span>
+                <div class="film-review__status-line"></div>
+              </div>
+              <div class="film-review film-review_negative">
+                <span class="film-review__reviews-count">66</span>
+                <span class="film-review__text">отрицательных</span>
+                <div class="film-review__status-line"></div>
+              </div>
+            </div>
+          </section>
+          <!-- end s-about-film -->
+
+          <!-- begin s-film-trailer -->
+          <section class="main-content__section s-film-trailer">
+            <div class="film-trailer">
+              <div id="film-overlay" class="film-trailer__overlay" style="background-image: url(img/trailer-poster.jpg)">
+                <button class="film-trailer__play-button">
+                  <svg class="icon icon-play">
+                    <use xlink:href="img/sprite.svg#icon-play"></use>
+                  </svg>
+                </button>
+              </div>
+              <video id="film-trailer" controls>
+                <source src="video/Deadpool-Official-Trailer.mp4" type="video/mp4">
+
+              </video>
+            </div>
+          </section>
+          <!-- end s-film-trailer -->
+
+          <!-- begin s-film-gallery -->
+          <section class="main-content__section s-film-gallery">
+            <div class="s-film-gallery__wrapper">
+              <div class="carousel-buttons">
+                <button class="carousel-button carousel-button_prev">
+                  <svg class="icon icon-next">
+                    <use xlink:href="img/sprite.svg#icon-next"></use>
+                  </svg>
+                </button>
+                <button class="carousel-button carousel-button_next">
+                  <svg class="icon icon-next">
+                    <use xlink:href="img/sprite.svg#icon-next"></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="film-gallery-carousel swiper-container">
+                <div class="swiper-wrapper">
+                  <a href="img/gallery/1.jpg" class="film-gallery-slide swiper-slide">
+                    <div class="film-gallery-slide__img">
+                      <img class="object-fit-cover lazyload" src="img/gallery/thumb/1.jpg" alt="gallery image">
+                    </div>
+                    <div class="film-gallery-slide__overlay">
+                      <svg class="icon icon-zoom">
+                        <use xlink:href="img/sprite.svg#icon-zoom"></use>
+                      </svg>
+                    </div>
+                  </a>
+                  <a href="img/gallery/2.jpg" class="film-gallery-slide swiper-slide">
+                    <div class="film-gallery-slide__img">
+                      <img class="object-fit-cover lazyload" src="img/gallery/thumb/2.jpg" alt="gallery image">
+                    </div>
+                    <div class="film-gallery-slide__overlay">
+                      <svg class="icon icon-zoom">
+                        <use xlink:href="img/sprite.svg#icon-zoom"></use>
+                      </svg>
+                    </div>
+                  </a>
+                  <a href="img/gallery/3.jpg" class="film-gallery-slide swiper-slide">
+                    <div class="film-gallery-slide__img">
+                      <img class="object-fit-cover lazyload" src="img/gallery/thumb/3.jpg" alt="gallery image">
+                    </div>
+                    <div class="film-gallery-slide__overlay">
+                      <svg class="icon icon-zoom">
+                        <use xlink:href="img/sprite.svg#icon-zoom"></use>
+                      </svg>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </section>
+          <!-- end s-film-gallery -->
+        </div>
+      </main>
+
+      <!-- begin footer -->
+      <footer class="footer">
+        <div class="container-small">
+          <div class="footer__content">
+            <a class="footer__text-item footer-link" href="#">Реклама</a>
+            <a class="footer__text-item footer-link" href="#">Условия использования</a>
+            <span class="footer__text-item footer-copyright" footer__link "">© 2003–2016 Spike</span>
+          </div>
+        </div>
+      </footer>
+      <!-- end footer -->
+
+      <div class="hidden-zone">
+        <div class="gallery-popups">
+          <div id="#gallery-popup-1" class="gallery-popup">
+            <div class="gallery-popup__img">
+              <img src="img/gallery/1.jpg" alt="gallery image">
+            </div>
+          </div>
+          <div id="#gallery-popup-1" class="gallery-popup">
+            <div class="gallery-popup__img">
+              <img src="img/gallery/1.jpg" alt="gallery image">
+            </div>
+          </div>
+          <div id="#gallery-popup-1" class="gallery-popup">
+            <div class="gallery-popup__img">
+              <img src="img/gallery/1.jpg" alt="gallery image">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <noscript>
+      <div class="noscript">
+        <p class="noscript__text">Для работы приложения необходимо включить JavaScript.</p>
+      </div>
+    </noscript>
+
+    <script defer src="js/app.bundle.js"></script>
+
+  </body>
+</html>
