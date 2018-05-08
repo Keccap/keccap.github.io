@@ -35,6 +35,7 @@
       </div>
     </div>
     <!-- end preloader -->
+
     <div class="site-wrapper">
 
       <header class="header">
@@ -96,7 +97,7 @@
           <section class="main-content__section s-about-film">
             <div class="film-description">
               <div class="film-description__cover">
-                <img src="img/cover.jpg" alt="Deadpool">
+                <img src="img/cover.jpg" alt="Deadpool cover">
               </div>
               <div class="film-description__text">
                 <p>Уэйд Уилсон — наёмник. Будучи побочным продуктом программы вооружённых сил под названием «Оружие X», Уилсон приобрёл невероятную силу, проворство и способность к исцелению. Но страшной ценой: его клеточная структура постоянно меняется,
@@ -105,7 +106,7 @@
             </div>
 
             <div class="film-reviews">
-              <h2 class="film-reviews__title h2">Рецензии:</h2>
+              <h2 class="film-reviews__title">Рецензии:</h2>
               <!-- begin film-review -->
               <div class="film-review film-review_positive">
                 <span class="film-review__reviews-count">266</span>
@@ -113,16 +114,20 @@
                 <div class="film-review__status-line"></div>
               </div>
               <!-- end film-review -->
+              <!-- begin film-review -->
               <div class="film-review film-review_neutral">
                 <span class="film-review__reviews-count">41</span>
                 <span class="film-review__text">нейтральных</span>
                 <div class="film-review__status-line"></div>
               </div>
+              <!-- end film-review -->
+              <!-- begin film-review -->
               <div class="film-review film-review_negative">
                 <span class="film-review__reviews-count">66</span>
                 <span class="film-review__text">отрицательных</span>
                 <div class="film-review__status-line"></div>
               </div>
+              <!-- end film-review -->
             </div>
           </section>
           <!-- end s-about-film -->
@@ -130,14 +135,14 @@
           <!-- begin s-film-trailer -->
           <section class="main-content__section s-film-trailer">
             <div class="film-trailer">
-              <div id="film-overlay" class="film-trailer__overlay" style="background-image: url(img/trailer-poster.jpg)">
+              <div id="js-film-overlay" class="film-trailer__overlay" style="background-image: url(img/trailer-poster.jpg)">
                 <button class="film-trailer__play-button">
                   <svg class="icon icon-play">
                     <use xlink:href="img/sprite.svg#icon-play"></use>
                   </svg>
                 </button>
               </div>
-              <video id="film-trailer" controls>
+              <video id="js-film-trailer" controls>
                 <source src="video/Deadpool-Official-Trailer.mp4" type="video/mp4">
 
               </video>
@@ -162,9 +167,10 @@
               </div>
               <div class="film-gallery-carousel swiper-container">
                 <div class="swiper-wrapper">
+                  <!-- begin film-gallery-slide -->
                   <a href="img/gallery/1.jpg" class="film-gallery-slide swiper-slide">
                     <div class="film-gallery-slide__img">
-                      <img class="object-fit-cover lazyload" src="img/gallery/thumb/1.jpg" alt="gallery image">
+                      <img class="object-fit-cover lazyload" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/gallery/thumb/1.jpg" alt="Deadpool gallery image">
                     </div>
                     <div class="film-gallery-slide__overlay">
                       <svg class="icon icon-zoom">
@@ -172,9 +178,11 @@
                       </svg>
                     </div>
                   </a>
+                  <!-- end film-gallery-slide -->
+                  <!-- begin film-gallery-slide -->
                   <a href="img/gallery/2.jpg" class="film-gallery-slide swiper-slide">
                     <div class="film-gallery-slide__img">
-                      <img class="object-fit-cover lazyload" src="img/gallery/thumb/2.jpg" alt="gallery image">
+                      <img class="object-fit-cover lazyload" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/gallery/thumb/2.jpg" alt="Deadpool gallery image">
                     </div>
                     <div class="film-gallery-slide__overlay">
                       <svg class="icon icon-zoom">
@@ -182,9 +190,11 @@
                       </svg>
                     </div>
                   </a>
+                  <!-- end film-gallery-slide -->
+                  <!-- begin film-gallery-slide -->
                   <a href="img/gallery/3.jpg" class="film-gallery-slide swiper-slide">
                     <div class="film-gallery-slide__img">
-                      <img class="object-fit-cover lazyload" src="img/gallery/thumb/3.jpg" alt="gallery image">
+                      <img class="object-fit-cover lazyload" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/gallery/thumb/3.jpg" alt="Deadpool gallery image">
                     </div>
                     <div class="film-gallery-slide__overlay">
                       <svg class="icon icon-zoom">
@@ -192,6 +202,7 @@
                       </svg>
                     </div>
                   </a>
+                  <!-- end film-gallery-slide -->
                 </div>
               </div>
             </div>
@@ -212,26 +223,6 @@
         </div>
       </footer>
       <!-- end footer -->
-
-      <div class="hidden-zone">
-        <div class="gallery-popups">
-          <div id="#gallery-popup-1" class="gallery-popup">
-            <div class="gallery-popup__img">
-              <img src="img/gallery/1.jpg" alt="gallery image">
-            </div>
-          </div>
-          <div id="#gallery-popup-1" class="gallery-popup">
-            <div class="gallery-popup__img">
-              <img src="img/gallery/1.jpg" alt="gallery image">
-            </div>
-          </div>
-          <div id="#gallery-popup-1" class="gallery-popup">
-            <div class="gallery-popup__img">
-              <img src="img/gallery/1.jpg" alt="gallery image">
-            </div>
-          </div>
-        </div>
-      </div>
 
     </div>
 
